@@ -29,8 +29,9 @@ stages:
               deploy:
                 steps:
                 - script: |
-                    echo "####################################" \
-                    echo Display Environment - $(environment)
+                    echo "####################################"
+                    echo Current Environment --> $(environment)
+                    echo "####################################"
                   displayName: '$(environment) environment'
 
 
