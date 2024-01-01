@@ -31,7 +31,7 @@ stages:
                 - script: |
                     echo "####################################"
                     echo Current Environment --> $(environment)
-                    echo "####################################"
+                    
                   displayName: '$(environment) environment'
 
 
