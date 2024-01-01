@@ -19,7 +19,7 @@ parameters:
       - name : prod
 
 stages:
-  - ${{each stage in parameters.stages}}
+  - ${{each stage in parameters.stages}}:
     - stage: ${{stage.name}}
       variables:
       - group: vg-${{stage.name}}
