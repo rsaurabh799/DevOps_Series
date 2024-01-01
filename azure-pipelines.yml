@@ -30,7 +30,7 @@ stages:
                 steps:
                 - script: |
                     echo "####################################"
-                    echo Current Environment --> $(environment)
+                    echo Current Environment -> $(environment)
                     
                   displayName: '$(environment) environment'
 
