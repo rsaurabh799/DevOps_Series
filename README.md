@@ -1,2 +1,2 @@
-# multi_environment_deployment
-Enhancing YAML Pipeline to enable multi environment deployment
+# This Repository covers all details on DevOps and automation.
+1) Enhancing YAML Pipeline to enable multi-environment deployment
